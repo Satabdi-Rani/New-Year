@@ -1,5 +1,5 @@
 header{
-    background-image: url(/images/Banner\ Image.png);
+    background-image: url(images/Banner\ Image.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ header{
 
 /* Midnight party */
 .party{
-    background-image: url(/images/Vectorrr.png);
+    background-image: url(images/Vectorrr.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
