@@ -1,0 +1,22 @@
+header{
+    background-image: url(/images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 400px;
+    display: flex ;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
