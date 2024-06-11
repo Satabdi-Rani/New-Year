@@ -26,7 +26,7 @@ header{
     margin-top: 0;
     margin-bottom: 0;
 }
-h3{
+.header-container h3{
     color: white;
     font-size: 30px;
     text-align: center;
@@ -72,29 +72,56 @@ h3{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1000px;
+    width: 1400px;
     height: 600px;
     display: flex ;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 8%;
     border-radius: 15px ;
-    margin-top: 50px;
+    margin-top: 8%;
 }
 .party-container{
+    background: rgba(13, 13, 13, 0.436);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     gap: 30px;
+    border-radius: 15px;
 }
 .party-left{
-    /* width: 50%; */
-    margin-left: 50px;
+    width: 50%;
+    padding: 50px;
+    margin-left: 30px;
+}
+.party-left h2{
+    width: 70%;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 40px;
+}
+.party-left h4{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 300;
+}
+.party-button{
+    padding: 10px 30px;
+    background-color: #FF0000;
+    color: white;
+    border: 2px solid #FF0000;
+    border-radius: 50px;
+    margin-left: -70%;
 }
 .party-right{
-    margin-left: 50%;
+    /* margin-left: 30%; */
 }
 .party-right img{
     /* align-items: flex-end; */
+    margin-top: 20%;
+    margin-left: 40%;
 }
 
 
@@ -108,7 +135,7 @@ h3{
   /* background-color: none; */
   margin: 0 auto;
   border-radius: 15px ;
-    background-image: linear-gradient(#f4b7b7, rgb(242, 228, 228));
+    background-image: linear-gradient(#f6b3b3e5, rgb(247, 243, 243));
 }
 .hotel-container{
     display: flex;
@@ -134,14 +161,114 @@ h3{
     border-radius: 8px;
 }
 
+/* ComingSoon */
+.comingSoon{
+   margin: 8% 0 0 8%;
+   text-align: center;
+}
+.comingSoon-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.newOffer h4{
+    text-align: left;
+    color: #FF0000;
+    font-size: 20px;
+}
+.newOffer h2{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.newOffer p{
+    text-align: left;
+    width: 70%;
+    font-size: 18px;
+}
+
+.midImg{
+    
+}
+
+
+
+
+/* Portfolio */
+.portfolio{
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.portfolio-content h3{
+    color: #FF0000;
+    font-size: 20px;
+}
+.portfolio-content h1{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.portfolio-content p{
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 40px;
+    
+}
+
+/* Newsletter */
+.newsletter{
+    background-color: #f6d4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 80px 0;
+    margin-top: 8%;
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.newsletter-content h5{
+    font-size: 15px;
+    width: 60%;
+    font-weight: 400;
+    text-align: center;
+}
+.newsletter-input{
+    border-radius: 50px;
+    padding: 10px 80px;
+    background-color: white;
+    border: 2px solid white;
+    padding-left: 20px;
+}
+.subscribe{
+    background-color: #FF0000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #FF0000;
+    margin-left: -50px;
+}
+
 
 
 
 /* Footer */
 footer{
-
     background-color: #070211;
-    margin: 0;
+    margin: 8% 0 0 0;
     padding: 0;
 }
 .footercontainer{
@@ -170,4 +297,7 @@ footer{
     flex-direction: row;
     gap:10px;
     color: white;
+}
+.top-right{
+    width: 50%;
 }
