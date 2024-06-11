@@ -7,43 +7,115 @@ header{
     height: 400px;
     display: flex ;
     text-align: center;
+    margin: 0 auto;
+    border-radius: 15px ;
+    margin-top: 50px;
 }
 div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: rgba(13, 13, 13, 0.436);
+    border-radius: 15px ;
 }
 .header h1{
     color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h3{
     color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 /* all categories section*/
 .banner{
-      margin: 0 25%;
+      margin: 0 auto;
+      margin-top: 10%;
 }
 .banner h1{
     color: #FF0000;
     font-size: 70px;
     font-weight: bold;
     text-align: center; 
-    padding: 0;
+    margin-bottom: 0;
 }
 .banner h5{
     color: #FF0000;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
 }
 .banner h2{
     font-size: 50px;
     text-align: center;
     font-weight: 600;
+    margin-top: 0;
 }
 .banner img{
     width: 600px;
     height:400px;
-    margin-left: 20%;
+    
+}
+
+/* Midnight party */
+.party{
+    background-image: url(/images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+    display: flex ;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px ;
+    margin-top: 50px;
+}
+.party-container{
+    display: grid;
+    justify-content: space-evenly ;
+}
+.party-left{
+    /* width: 50%; */
+}
+.party-right{
+    /* width: 50%; */
+}
+
+
+
+
+/* Footer */
+footer{
+    background-color: #070211;
+    margin: 0;
+    padding: 0;
+}
+.footercontainer{
+    margin: 0 auto;
+}
+.footerTop{
+    display: flex;
+    flex-direction: row;
+}
+.top-left p{
+    color: white;
+}
+.top-right-call{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+}
+.top-right-website{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
 }
