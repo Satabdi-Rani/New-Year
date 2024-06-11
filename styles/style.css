@@ -1,5 +1,5 @@
 header{
-    background-image: url(images/Banner\ Image.png);
+    background-image: url(/images/Banner\ Image.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ header{
     border-radius: 15px ;
     margin-top: 50px;
 }
-div{
+.header-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ h3{
 /* all categories section*/
 .banner{
       margin: 0 auto;
-      margin-top: 10%;
+      margin-top: 8%;
 }
 .banner h1{
     color: #FF0000;
@@ -60,12 +60,15 @@ h3{
 .banner img{
     width: 600px;
     height:400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     
 }
 
 /* Midnight party */
 .party{
-    background-image: url(images/Vectorrr.png);
+    background-image: url(/images/Vectorrr.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,14 +81,57 @@ h3{
     margin-top: 50px;
 }
 .party-container{
-    display: grid;
-    justify-content: space-evenly ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 .party-left{
     /* width: 50%; */
+    margin-left: 50px;
 }
 .party-right{
-    /* width: 50%; */
+    margin-left: 50%;
+}
+.party-right img{
+    /* align-items: flex-end; */
+}
+
+
+/* New park hotel */
+.hotel{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    /* background-color: ; */
+    /* height: 200px; */
+    /* background-color: rgb(243, 107, 107) */
+  /* background-color: none; */
+  margin: 0 auto;
+  border-radius: 15px ;
+    background-image: linear-gradient(#f4b7b7, rgb(242, 228, 228));
+}
+.hotel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.hotel-container p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 8px;
+}
+.hotel-span{
+    color: #FF0000;
+}
+.join{
+    padding: 10px 15px;
+    background-color: #FF0000;
+    color:white;
+    font-size: 15px;
+    margin-top: 18px;
+    border: 2px solid #FF0000;
+    border-radius: 8px;
 }
 
 
@@ -93,6 +139,7 @@ h3{
 
 /* Footer */
 footer{
+
     background-color: #070211;
     margin: 0;
     padding: 0;
@@ -103,6 +150,11 @@ footer{
 .footerTop{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+.top-left{
+    width: 50%;
+    padding: 50px;
 }
 .top-left p{
     color: white;
@@ -116,6 +168,6 @@ footer{
 .top-right-website{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap:10px;
     color: white;
 }
